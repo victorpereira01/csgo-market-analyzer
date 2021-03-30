@@ -13,6 +13,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
+import { ItemListComponent } from './views/item-list/item-list.component';
 import { ListComponent } from './components/list-container/list-container.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ListComponent
+    ListComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,18 @@ mat-toolbar {
     background: linear-gradient(82deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 8%, rgba(0, 212, 255, 1) 100%);
 }
 
+a {
+    text-decoration: none;
+}
+
+span {
+    outline: none;
+}
+
+mat-icon {
+    padding: 5px;
+}
+
 mat-toolbar-row span {
     display: flex;
     align-items: center;

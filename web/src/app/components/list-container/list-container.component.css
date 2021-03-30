@@ -1,3 +1,28 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.search-bar button {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.search-bar button:hover {
+    cursor: pointer;
+}
+
+.search-bar mat-label {
+    color: rgba(9, 9, 121, 0.6);
+}
+
+.search-bar mat-icon {
+    color: #303030;
+}
+
 mat-toolbar {
     justify-content: space-between;
 }

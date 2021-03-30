@@ -2,7 +2,7 @@
     <form action="">
         <mat-form-field>
             <mat-label>Search</mat-label>
-            <input matInput/>
+            <input matInput />
             <button mat-icon-button matSuffix routerLink="/item">
                 <mat-icon>search</mat-icon>
             </button>
@@ -12,8 +12,9 @@
 
 <div class="content">
     <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7,8,9,10]">
-            <mat-card class="mat-elevation-z4">
+        <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7,8]">
+            <card-item></card-item>
+            <!-- <mat-card class="mat-elevation-z4">
                 <mat-card-header>
                     <mat-card-title>AK-47 | Frontside Misty (FN)</mat-card-title>
                 </mat-card-header>
@@ -29,7 +30,7 @@
                 <mat-card-actions>
                     <button mat-button><a href="https://steamcommunity.com/market/" target="_blank">SEE ON MARKET</a></button>
                 </mat-card-actions>
-            </mat-card>
+            </mat-card> -->
         </div>
     </div>
 </div>

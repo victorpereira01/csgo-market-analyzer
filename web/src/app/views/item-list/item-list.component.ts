@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./item-list.component.css']
 })
 
-export class ItemListComponent implements OnInit {
+export class ItemListView implements OnInit {
 
     constructor() { }
 

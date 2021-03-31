@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { SkinItem } from 'src/app/shared/model/skin-item.model';
 
 @Component({
     selector: 'card-item',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class CardItemComponent implements OnInit {
 
-    itemName: string = '';
+    @Input() item: SkinItem;
 
     constructor() { }
 

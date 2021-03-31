@@ -9,11 +9,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
-import { ItemListComponent } from './views/item-list/item-list.component';
+import { ItemListView } from './views/item-list/item-list.component';
 import { ListComponent } from './components/list-container/list-container.component';
 import { CardItemComponent } from './components/card-item/card-item.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -25,8 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     HeaderComponent,
     ListComponent,
-    ItemListComponent,
-    CardItemComponent
+    CardItemComponent,
+    ItemListView
   ],
   imports: [
     BrowserModule,
@@ -40,7 +41,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatFormFieldModule,
     FlexLayoutModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

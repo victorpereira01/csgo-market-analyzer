@@ -1,7 +1,7 @@
 export class SkinItem {
-    name: string;
+    name?: string;
     success: boolean;
-    lowestPrice: string;
+    lowest_price: string;
     volume: string;
-    medianPrice: string;
+    median_price: string;
 }
